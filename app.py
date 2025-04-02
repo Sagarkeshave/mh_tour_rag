@@ -2,9 +2,9 @@ import streamlit as st
 from rag_system import get_qa_chain, create_vector
 
 st.title("Maharashtra Tourism 🌱")
-# btn = st.button("Create Knowledgebase")
-# if btn:
-#     create_vector()
+btn = st.button("Create Knowledgebase")
+if btn: 
+    create_vector()
 
 question = st.text_input("Question: ")
 
